@@ -52,6 +52,15 @@ while True:
 		a = 1
 	elif x == 0:
 		a = 0
+#en su lugar, tal vez podría funcionar:
+'''
+while x<127:
+    x+=1
+    if x==127:
+           while x>=0:
+               x=-1
+'''
+		
 	time.sleep(0.100)
 '''
 	
